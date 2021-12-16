@@ -15,7 +15,7 @@ import java.nio.ByteBuffer
  *
  */
 
-class MMExtractor(path: String?) {
+class MMExtractor(path: String) {
 
     /**音视频分离器*/
     private var mExtractor: MediaExtractor? = null
